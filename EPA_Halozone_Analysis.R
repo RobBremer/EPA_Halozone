@@ -41,7 +41,7 @@ nuts_chl_combined <- nuts_metadata_202411 %>%
 ggplot(nuts_chl_combined, aes(x = station, y = si))+
   geom_()
 
-#### Copying in from VSCode
+#### Copying in from VSCode this should work
 halo_site_coords <- read_excel("C:/Users/Robert.Bremer/Downloads/EPA_Halozone_Sample_Points.xlsx") %>%
   clean_names() %>%
   rename(decimalLongitude = longitude) %>%
